@@ -1,0 +1,205 @@
+@import url(https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap);
+
+body {
+    max-width: 85.3rem;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+    
+}
+
+.background-img {
+    position: relative;
+}
+
+.titulo-h1 {
+    position: absolute;
+    left: 38%;
+    bottom: 55%;
+    text-align: center;
+}
+
+.titulo-h1 h1 {
+    font-family: "Luckiest Guy";
+    font-size: max(15px, 3vw);
+    color: #ffffff;
+    letter-spacing: 2px;
+} 
+
+.paragrafo-junto-titulo {
+    position:absolute;
+    text-align: center;
+    left: 23%;
+    bottom: 40%;
+}
+
+.paragrafo-junto-titulo p {
+    font-family: "Open Sans";
+    font-size: max(6px, 1vw);
+    color: #ffffff;
+
+}
+
+.botoes {
+    padding-top: 15px;
+    position:absolute;
+    text-align: center;
+    left: 31%;
+    bottom: 23%;
+}
+
+.botao-baixar {
+    border: 0px solid black;
+    border-radius: 50px;
+    padding: 1vw 2.2vw;
+    margin-left: 1vw;
+    font-family: "Open Sans";
+    font-size: max(6px, 1vw);
+}
+
+.botao-abrir {
+    border: 0px solid black;
+    border-radius: 50px;
+    padding: 1vw 2.2vw;
+    margin-left: 1vw;
+    background-color: #23272A;
+    font-family: "Open Sans";
+    color: #ffffff;
+    font-size: max(6px, 1vw);
+}
+
+.section-01 {
+    display: flex;
+}
+
+.background-img-section-01 {
+    width: 100%;
+    padding-left: 13%;
+}
+
+.conteudo-section-01 {
+    width: 50vw;
+    padding-right: 8%;
+}
+
+.conteudo-section-01 h2{
+    font-family: "Open Sans";
+    font-size: max(12px, 3.3vw);
+    font-weight: bolder;
+    margin-bottom: 1%;
+}
+
+.conteudo-section-01 p {
+    font-family: "Open Sans";
+    font-size: max(6px, 1.4vw);
+    margin-top: 0%;
+}
+
+.section-02 {
+    display: flex;
+    background-color: #F6F6F6;
+}
+
+.background-img-section-02 {
+    width: 100%;
+    padding-right: 13%;
+}
+
+.conteudo-section-02 {
+    width: 50vw;
+    padding-left: 8%;
+}
+
+.conteudo-section-02 h2 {
+    font-family: "Open Sans";
+    font-size: max(12px, 3.3vw);
+    font-weight: bolder;
+    margin-bottom: 1%;
+}
+
+.conteudo-section-02 p {
+    font-family: "Open Sans";
+    font-size: max(6px, 1.4vw);
+    margin-top: 0%;
+}
+
+.section-03 {
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.background-img-section-03 {
+    width: 100%;
+    padding-left: 13%;
+    margin-top: 5%;
+}
+
+.conteudo-section-03 {
+    width: 50vw;
+    padding-right: 8%;
+    margin-top: 5%;
+}
+
+.conteudo-section-03 h2{
+    font-family: "Open Sans";
+    font-size: max(12px, 3.3vw);
+    font-weight: bolder;
+    margin-bottom: 1%;
+}
+
+.conteudo-section-03 p {
+    font-family: "Open Sans";
+    font-size: max(6px, 1.4vw);
+    margin-top: 6%;
+}
+
+.section-04 {
+    display: flex;
+    text-align: center;
+    background-color: #F6F6F6;
+}
+
+.conteudo-section-04 h1 {
+    font-family: "Luckiest Guy";
+    font-size: max(15px, 3vw);
+    color: #23272A;
+    letter-spacing: 2px;
+} 
+
+.conteudo-section-04 p {
+    font-family: "Open Sans";
+    font-size: max(6px, 1vw);
+    color: #23272A;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.background-img-section-04 {
+    width: 70%;
+    margin: 0 auto;
+    padding: 2% 0 2% 0;
+}
+
+.rodape {
+    display: flex;
+    width: 100%;
+    height: 15vh;
+    background-color: #23272A;
+    align-items: center;
+    justify-content: center;
+}
+
+.background-img-rodape {
+    width: 13vw;
+    height: 1.4vh;
+}
